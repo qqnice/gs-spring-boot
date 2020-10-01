@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'qqjv'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3573626cfa0f407291fc12e119b9d509 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_537048bf62dc40b1aeadfe1e3ea69614 }}
         package: '${{ github.workspace }}/target/*.jar'
